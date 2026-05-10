@@ -173,6 +173,28 @@
     .logo-ring img { width: 220px; height: 150px; }
     .decoration { width: 140px; height: 200px; }
   }
+    /* Styling agar mirip dengan desain di gambar */
+    .btn-secondary {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        margin: 15px auto;
+        padding: 15px;
+        border: 2px solid #6c757d; /* Warna abu-abu agar berbeda dari tombol utama */
+        border-radius: 25px;
+        background-color: transparent;
+        color: #6c757d;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .btn-secondary:hover {
+        background-color: #6c757d;
+        color: white;
+    }
 </style>
 </head>
 <body>
@@ -269,6 +291,9 @@
       </a>
       <a href="#" target="_blank">
         <button class="menu-btn btn-active">PRE-TEST 2</button>
+      </a>
+     <a href="index.html">
+     <button class="btn-secondary" onclick="history.back()">KEMBALI</button>
       </a>
       <!-- Ganti href="" dengan link Post-Test yang sebenarnya -->
       <!-- Ganti href="" dengan link sertifikat yang sebenarnya -->
